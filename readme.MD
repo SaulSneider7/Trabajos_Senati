@@ -38,3 +38,11 @@ Cada equipo deberá entregar:
 - Codigo en Python
 - Presentacion (ppt, canvas, etc)
 - Exposicion Oral
+
+
+# CRONOGRAMA DE ACTIVIDADES
+
+- ***Viernes 28-03-2025 y Lunes 31-03-2025:*** Desarrollo del codigo (script)
+- ***Martes 01-04-2025:*** Elaboracion de informe
+- ***Miercoles 02-04-2025:*** Desarrollo de la presentacion y subida de trabajos al Blackboard
+- ***Viernes 04-04-2025:*** Exposicion de los proyectos
