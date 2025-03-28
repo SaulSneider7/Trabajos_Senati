@@ -1,21 +1,40 @@
-# Ejercicio Práctico: Análisis de Datos de Empleados con Pandas
-Eres un analista de datos en una empresa y te han entregado un archivo CSV llamado empleados.csv con información sobre los empleados. Este archivo contiene más de 50 registros y varias columnas con datos relevantes como edad, salario, departamento, desempeño, entre otros. Tu tarea es analizar estos datos utilizando Pandas para responder preguntas clave sobre los empleados y su rendimiento.
+# Analisis de Datos y Visualizacion con Pandas, Numpy y Matplotlib
 
-## Cargar y explorar los datos
-- Carga el archivo CSV empleados.csv en un DataFrame de Pandas.
-- Muestra los primeros 10 registros del DataFrame para conocer la estructura de los datos.
-- Obtén un resumen estadístico de las columnas numéricas (mínimos, máximos, promedios, etc.).
+## Descripcion del Trabajo
+El objetivo de este trabajo final es aplicar todos los conocimientos adquiridos en el curso sobre Pandas, NumPy, extracción de datos desde archivos CSV y la visualización de datos con Matplotlib. Los estudiantes trabajarán en equipos de 4 integrantes para realizar un análisis exploratorio de un conjunto de datos real, generar gráficos y presentar sus hallazgos en un informe y una exposición.
 
-## Filtrar y analizar información clave
-- Filtra y muestra los empleados cuyo salario sea mayor a 5000.
-- Crea una nueva columna llamada Alto_Desempeño que indique True si el empleado tiene una Evaluación de Desempeño superior a 4, de lo contrario, debe ser False.
-- Elimina la columna Bono_Anual del DataFrame, ya que la empresa ha decidido no utilizar esta información.
-- Calcula el total de salarios por cada departamento y muestra los resultados.
+## Estrutura del Trabajo
+### 1. Seleccion del conjunto de datos
+Cada equipo deberá elegir un archivo CSV con información relevante para su análisis. Se recomienda utilizar fuentes de datos públicas o generar datos ficticios para el ejercicio.
 
-## Encontrar empleados específicos
-- Encuentra al empleado más joven de la empresa y muestra sus datos completos.
-- Encuentra al empleado con más años de experiencia en la empresa y muestra sus datos completos.
+### 2. Carga y Procesamiento de Datos
+- Leer el archivo CSV utilizando Pandas.
+- Explorar la estructura de los datos (número de filas, columnas, tipos de datos).
+- Manejo de valores nulos y datos faltantes.
+- Aplicar operaciones con NumPy para transformar o calcular métricas sobre los datos.
 
-## Manejo de valores nulos y exportación
-- Si hay valores faltantes en la columna Proyectos_Completados, reemplázalos con el promedio de esa columna.
-- Guarda el DataFrame modificado en un nuevo archivo CSV llamado empleados_modificado.csv.
+### 3. Analisis de Datos
+- Realizar análisis descriptivo utilizando estadísticas básicas (media, mediana, desviación estándar, etc.).
+- Identificar patrones y correlaciones dentro de los datos.
+- Aplicar filtros y segmentaciones relevantes.
+
+### 4. Visualizacion de Datos
+Generar diferentes tipos de gráficos con Matplotlib para representar diferentes datos:
+
+- Gráfico de líneas 
+- Gráfico de barras 
+- Gráfico de torta
+- Histogramas 
+
+### 5. Conclusiones y Recomendaciones
+- Interpretar los resultados obtenidos.
+- Explicar los hallazgos clave y su relevancia en el contexto del análisis.
+- Proponer posibles usos o aplicaciones de la información analizada.
+
+## Entrega y Evaluacion
+Cada equipo deberá entregar:
+
+- Informe en PDF
+- Codigo en Python
+- Presentacion (ppt, canvas, etc)
+- Exposicion Oral
